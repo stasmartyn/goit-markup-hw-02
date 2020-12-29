@@ -1,0 +1,156 @@
+:root {
+  /* hero footer bacground */
+  --dark-hero: #2f303a;
+  --white: #ffffff;
+  --txt-dark: #212121;
+  --txt-grey: #757575;
+  --white-blue: #2196f3;
+
+  /* logo fonts */
+  font-family: "Raleway", sans-serif;
+
+  /* txt style */
+  font-family: "Roboto", sans-serif;
+  --logo-font: "Raleway", sans-serif;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* LOGO */
+.logo {
+  width: 145px;
+  height: 31px;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: var(--txt-dark);
+  text-decoration: none;
+  font-family: var(--logo-font);
+  margin-left: 250px;
+  margin-top: 24px;
+  margin-right: 43px;
+}
+
+.logo-color {
+  color: var(--white-blue);
+}
+.logo-first {
+  margin-left: 215px;
+  margin-top: 24px;
+}
+/* NAV */
+header {
+  background-color: var(--white);
+  display: flex;
+}
+nav ul {
+  margin: 0;
+  display: flex;
+  margin-top: 32px;
+  list-style-type: none;
+}
+.navigation a {
+  margin-left: 50px;
+  color: var(--txt-dark);
+  width: 68px;
+  height: 16px;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+address ul {
+  display: flex;
+  margin-top: 32px;
+  list-style-type: none;
+  margin-left: 300px;
+}
+.contacts a {
+  margin-left: 50px;
+  margin-top: 32px;
+  color: var(--txt-grey);
+}
+
+/* section hero  */
+
+.hero-baner {
+  background-color: var(--dark-hero);
+  padding: 200px 452px 280px 452px;
+  box-sizing: border-box;
+  width: 1600px;
+  height: 600px;
+}
+
+.hero-baner h1 {
+  text-align: center;
+  width: 696px;
+  height: 120px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  color: var(--white);
+}
+
+.hero-button {
+  width: 200px;
+  height: 50px;
+
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  background-color: var(--white-blue);
+}
+
+/* SECTION DESCR */
+.section-descr {
+  margin-top: 94px;
+  background-color: var(--white);
+}
+.section-descr h3 {
+  width: 270px;
+  height: 16px;
+  margin-top: 0;
+}
+
+.section-descr ul {
+  display: flex;
+}
+.section-descr ul {
+  margin-left: 215px;
+  margin-right: 215px;
+}
+
+.title-descr li {
+  width: 270px;
+  height: 75px;
+  margin-right: 30px;
+  list-style-type: none;
+}
+
+/* section what we do */
+
+.what-we-do {
+  margin-top: 94px;
+  text-align: center;
+}
+
+.what-we-do-title {
+  font-size: 36px;
+  line-height: 42px;
+  width: 376px;
+  height: 42px;
+}
+.what-we-do-img-ul {
+  display: flex;
+  justify-content: center;
+}
+
+.what-we-do-img-ul li {
+  margin-right: 30px;
+  width: 370px;
+  height: 294px;
+  list-style-type: none;
+}
