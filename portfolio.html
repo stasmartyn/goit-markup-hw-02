@@ -4,112 +4,113 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-      
-        <a href="/"> <span>Web</span>Studio</a> 
-        <nav>
-        <ul>
-            <li>
-                <a href="/">Студия</a>
-            </li>
-            <li>
-                <a href="/">Портфолио</a>
-            </li>
-            <li>
-                <a href="/">Контакты</a>
-            </li>
+<header>
+
+    <a href="/" class="logo"><span class="logo-color">Web</span>Studio</a>
+
+    <!-- навигация  -->
+    <nav>
+        <ul class="navigation">
+
+            <li class="list-anchor"><a href="/" class="nav-anchor">Студия</a></li>
+            <li class="list-anchor"><a href="/" class="nav-anchor nav-active-anchor">Портфолио</a></li>
+            <li class="list-anchor"><a href="/" class="nav-anchor">Контакты</a></li>
+
         </ul>
     </nav>
     <address>
-        <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+
+        <ul class="contacts">
+            <li><a href="mailto:info@devstudio.com" class="conctacts-link" >info@devstudio.com</a> </li>
+            <li><a href="tel:+380961111111"  class="conctacts-link">+38 096 111 11 11</a></li>
         </ul>
+
     </address>
-    
-      
-  </header>  
+</header>
   <main>
 <!-- section buton -->
-<section>
+<section class="button-portfolio">
 <h2 hidden>категории сайта </h2>
-<ul>
-    <li><button>Все</button></li>
-    <li><button>Веб-сайты</button></li>
-    <li><button>Приложения</button></li>
-    <li><button>Дизайн</button></li>
-    <li><button>Маркетинг</button></li>
+<ul class="button-portfolio-style">
+    <li ><button type="button" class="button-list"> <span class="button-decsr">Все</span></button></li>
+    <li><button type="button" class="button-list"><span class="button-decsr">Веб-сайты</span></button></li>
+    <li><button type="button" class="button-list"><span class="button-decsr">Приложения</span></button></li>
+    <li><button type="button" class="button-list"><span class="button-decsr">Дизайн</span></button></li>
+    <li><button type="button" class="button-list"><span class="button-decsr">Маркетинг</span></button></li>
 </ul>
 </section>
 <!-- работы портфолио -->
-<section>
+<section class="portfolio-work">
 
 <h2 hidden>наш каталог услуг</h2>
 
-<ul>
-    <li>
+<ul class="portfolio-ul-descr">
+    <li  class=" img-portfolio-list">
         <a href="/">
             <img src="./img/galery-portfolio/img-desctop.png" alt="ноутбук"width="370px" height="294px">
-                <p>Технокряк</p>
-                    <span>Веб-сайт</span>
+                <p class="list-img-decsr">Технокряк</p>
+                    <span class="list-descr-program">Веб-сайт</span>
         </a>
     </li>
-    <li>
+    <li class=" img-portfolio-list" >
         <a href="/">
             <img src="./img/galery-portfolio/img-mens-play.png" alt="два парня играют баскетбол"width="370px" height="294px">
-                <p>Постер New Orlean vs Golden Star</p>
-                    <span>Дизайн</span>
+                <p  class="list-img-decsr">Постер New Orlean vs Golden Star</p>
+                    <span class="list-descr-program">Дизайн</span>
         </a>
     </li>
-    <li>
+    <li class=" img-portfolio-list" >
         <a href="/">
             <img src="./img/galery-portfolio/img-logo-fish.png" alt="Ресторан Seafood "width="370px" height="294px">
-            <p>Ресторан Seafood</p>
-                    <span>Приложение</span>
+            <p class="list-img-decsr">Ресторан Seafood</p>
+                    <span class="list-descr-program">Приложение</span>
         </a>
     </li>
-    <li>
+    <li class=" img-portfolio-list" >
         <a href="/">
             <img src="./img/galery-portfolio/img-headphone.png" alt="картинка с черными наушниками"width="370px" height="294px">
-                <p>Проект Prime</p>
-                    <span>Маркетинг</span>
+                <p class="list-img-decsr">Проект Prime</p>
+                    <span class="list-descr-program">Маркетинг</span>
         </a>
     </li>
-    <li>
+    <li class=" img-portfolio-list" >
         <a href="/">
             <img src="./img/galery-portfolio/img-boxes.png" alt="Проект Boxes приложение"width="370px" height="294px">
-                <p>Проект Boxes</p>
-                    <span>Приложение</span>
+                <p class="list-img-decsr">Проект Boxes</p>
+                    <span class="list-descr-program">Приложение</span>
         </a>
     </li>
-    <li>
+    <li  class=" img-portfolio-list">
         <a href="/">
             <img src="./img/galery-portfolio/img-display.png" alt="монитор с картой"width="370px" height="294px">
-                <p>Inspiration has no Borders</p>
-                    <span>Веб-сайт</span>
+                <p class="list-img-decsr">Inspiration has no Borders</p>
+                    <span class="list-descr-program">Веб-сайт</span>
         </a>
     </li>
-    <li>
+    <li class=" img-portfolio-list" >
         <a href="/">
             <img src="./img/galery-portfolio/img-book.png" alt="Издание книги Limited Edition"width="370px" height="294px">
-                <p>Издание Limited Edition</p>
-                    <span>Дизайн</span>
+                <p class="list-img-decsr">Издание Limited Edition</p>
+                    <span class="list-descr-program">Дизайн</span>
         </a>
     </li>
-    <li>
+    <li  class=" img-portfolio-list" >
         <a href="/">
             <img src="./img/galery-portfolio/img-lable-mark.png" alt="Проект марки LAB"width="370px" height="294px">
-                <p>Проект LAB</p>
-                    <span>Маркетинг</span>
+                <p class="list-img-decsr">Проект LAB</p>
+                    <span class="list-descr-program">Маркетинг</span>
         </a>
     </li>
-    <li>
+    <li class=" img-portfolio-list" >
         <a href="/">
             <img src="./img/galery-portfolio/img-silver-desctop.png" alt="работа за ноутбуком"width="370px" height="294px">
-                <p>Growing Business</p>
-                    <span>Приложение</span>
+                <p class="list-img-decsr">Growing Business</p>
+                    <span class="list-descr-program">Приложение</span>
         </a>
     </li>
 </ul>
@@ -123,21 +124,28 @@
 
 
   </main>
-  <!-- footer -->
-  <footer>
-      <a href="/"><span>Web</span> Studio</a>
+<!-- footer contacts -->
 
-      <ul>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
-      </ul>
-      <address>
-          <ul>
-         <li> <a href="https://goo.gl/maps/tiSnv4uhvFBTtYFs5" target="_blank">г. Киев, пр-т Леси Украинки, 26</a> </li>
+
+<footer>
+
+    <div class="footer-style">
+        <a href="/" class="logo logo-footer"><span class="logo-color">Web</span>Studio</a>
+
+
+
+        <ul class="footer-contact">
+            <li>
+                <address><span class="contact-adres">г. Киев, пр-т Леси Украинки, 26</span></address>
+            </li>
+
+            <li> <a href="mailto:info@example.com"> info@example.com</a> </li>
+            <li> <a href="tel:+380991111111">+38 099 111 11 11</a> </li>
         </ul>
-       </address>
 
-  </footer>
+    </div>
+</footer>
+
 
 </body>
 </html>
