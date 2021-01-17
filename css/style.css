@@ -315,8 +315,8 @@ footer {
   background-color: var(--tem-section);
 }
 .button-list:hover {
-  background-color: #f5f4fa;
   background-color: var(--white-blue);
+  color: var(--white);
 }
 .button-portfolio-style button {
   padding: 6px 22px 6px 22px;
@@ -325,6 +325,7 @@ footer {
   border-radius: 4px;
   height: 38px;
   background-color: var(--tem-section);
+  border-color: var(--tem-section);
 }
 .button-decsr {
   font-style: normal;
