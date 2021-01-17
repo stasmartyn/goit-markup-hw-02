@@ -124,10 +124,7 @@ header {
 .hero-button {
   width: 200px;
   height: 50px;
-  position: absolute;
-  width: 200px;
-  height: 50px;
-  left: 700px;
+  margin-left: 700px;
   top: 430px;
   background-color: var(--white-blue);
 }
