@@ -320,6 +320,22 @@ footer {
 
 /* section portfolio work */
 
+.nav-anchor {
+  color: var(--txt-dark);
+  width: 68px;
+  height: 16px;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-anchor:hover {
+  color: var(--txt-dark);
+  color: var(--white-blue);
+}
+
 .button-portfolio {
   margin-bottom: 20px;
 }
